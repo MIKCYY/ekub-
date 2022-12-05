@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ekub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div >
+  <h1 >EKUB winner</h1>
+  <div >
+  </div>
+
+  <form>
+    <h1> Enter data</h1>
+    <input id="name" type="text" placeholder="Name" />
+    <input id="amount" type="number" placeholder="Amount" />
+    <input type="button" value="Show" onclick="insert()" />
+  </form>
+  
+  <table id="display" style="width: 100%"></table> 
+
+  <button  type="button" onclick="getElementById('winner').innerHTML = getRandom()">Pick Winner!</button>
+  <button  type="button" onclick="getElementById('winner').innerHTML = '">Clear</button>
+
+  <div >
+    <h3 id="winner"></h3>
+  </div>
+  </div>
+  <script src="style.js"></script>
+  <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script class="jsbin" src="http://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+
+
+
+</body>
+</html>
+
